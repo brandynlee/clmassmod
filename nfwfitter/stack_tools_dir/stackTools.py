@@ -3,8 +3,13 @@
 """
 Created on Fri Feb  9 15:01:42 2018
 
-@author: MattFong
+@author: MattFong, Miyoung Choi, Brandyn Lee
 """
+
+'''
+Currently, the way this is written, the catalogs and stuff are read in from text files. In practice, the catalogs and observed shear profiles will 
+be contained within the massmod object which is created prior to the calls to stackTools.
+'''
 
 #input x, y, eps1, eps2, R' or X'
 
